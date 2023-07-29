@@ -1,0 +1,688 @@
+h1 {
+
+    font-size:57pt;
+
+    font-family: cursive;
+
+    letter-spacing: 3;
+
+    color: rgb(71, 163, 163);
+
+}
+
+h2 {
+
+     font-size:28pt;
+
+     text-align: center;
+
+     font-family: cursive;
+
+     letter-spacing: 3;
+
+     color: rgb(71, 163, 163);
+
+     margin: 0;
+
+     padding: 0;
+
+  }
+
+ 
+
+  h3 {
+
+    font-size:18pt;
+
+    text-align: center;
+
+    font-family: cursive;
+
+    letter-spacing: 3;
+
+    color: rgb(71, 163, 163);
+
+    margin: 0;
+
+    padding: 0;
+
+ }
+
+  
+
+ 
+
+  p {
+
+    font-size: 12pt;
+
+    letter-spacing: 3;
+
+    line-height: 1.5;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+
+    margin: 0;
+
+  }
+
+ 
+
+.container {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+.cont1 {
+
+    background-image: url(./images/canvaback.png);
+
+    background-repeat: no-repeat;
+
+    display:flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+ 
+
+}
+
+ 
+
+.cont2 {
+
+    background-color: #deebde;
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    grid-template-rows: 0.5fr 1fr 1fr;
+
+    
+
+}
+
+ 
+
+.cont3 {
+
+    background-color: #fde2e3;
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 0.3fr 1fr ;
+
+}
+
+ 
+
+.cont4 {
+
+    background-color: #e7d4f8;
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 0.5fr 1fr 1fr;
+
+}
+
+ 
+
+.cont5 {
+
+    background-color: #e9d1c7;
+
+    text-align: center;
+
+}
+
+ 
+
+.cont6 {
+
+    background-color: rgb(71, 163, 163);
+
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+  
+
+.col1 {
+
+    grid-column: span 12;
+
+    margin-top: 40px;
+
+    margin-bottom: 30px;
+
+}
+
+  
+
+.col {
+
+    background-color: rgb(184, 224, 224);
+
+    grid-column: span 4;
+
+    margin-left: 50px;
+
+    margin-right: 45px;
+
+    margin-bottom: 40px;
+
+    padding: 40px;
+
+    border-radius: 30%;
+
+    width: 250px;
+
+    height: 150px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border: 10px solid rgb(161, 223, 223);
+
+}
+
+  
+
+.exp1 {
+
+    grid-column:span 12;
+
+    margin-top: 40px;
+
+    margin-bottom: 50px;
+
+}
+
+.exp {
+
+    background-color: #e0cecf;
+
+    border-radius: 10px;
+
+    grid-column:span 4;
+
+    width: 300px;
+
+    margin-left: 60px;
+
+    margin-right: 65px;
+
+    margin-bottom: 130px;
+
+    border: 10px solid #eec9cc;
+
+}
+
+ 
+
+.int1 {
+
+    margin-top: 20px;
+
+    grid-column: span 12;
+
+ 
+
+}
+
+  
+
+.int {
+
+    background-color: #d6c8e2;
+
+    grid-column: span 4;
+
+    width: 300px;
+
+    height: 200px;
+
+    margin-left: 65px;
+
+    margin-right: 60px;
+
+    margin-bottom: 50px;
+
+    border-radius: 10px;
+
+    border: 10px solid #d1bce4
+
+   
+
+}
+
+  
+
+.section1 {
+
+    margin-top: 150px;
+
+    margin-bottom: 150px;
+
+}
+
+ 
+
+ .img {
+
+    border-radius: 30%;
+
+     height:200px;
+
+     width:200px;
+
+     border: 10px solid rgb(141, 184, 184);
+
+    }
+
+ 
+
+.img1 {
+
+   
+
+   height: 250px;
+
+   width: 250px;
+
+   }
+
+ 
+
+.img2 {
+
+    height: 200px;
+
+    width: 200px;
+
+    float: left;
+
+}
+
+ 
+
+.button {
+
+    background-color: rgb(71, 163, 163);
+
+    border: 10px solid rgb(59, 155, 155);
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    margin-top: 30px;
+
+    letter-spacing: 3;
+
+    font-size: 20px;
+
+    margin-bottom: 40px;
+
+    color: white;
+
+  }
+
+ 
+
+  .button1 {
+
+    background-color: rgb(71, 163, 163);
+
+    border: none;
+
+    border-radius: 10px;
+
+    margin-top: 30px;
+
+    letter-spacing: 3;
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+    color: white;
+
+  }
+
+ 
+
+  @media (max-width:460px) 
+
+  {
+
+     
+
+    .container {
+
+        background-color: black;
+
+        background-size: cover;
+
+        background-image: none;
+
+        
+
+}
+
+body {
+
+    background-color: black;
+
+    color: white;
+
+ 
+
+}
+
+ 
+
+    .col {
+
+        width:100px;
+
+        background-color: black;
+
+    }
+
+    .exp {
+
+        width: 200px;
+
+        background-color: black;
+
+    }
+
+    .int {
+
+        width: 200px;
+
+        background-color: black;
+
+    }
+
+ 
+
+    
+
+    h1 {
+
+        font-size: 12pt;
+
+       
+
+    }
+
+    h2 {
+
+        font-size: 10pt;
+
+       
+
+    }
+
+ 
+
+    h3 {
+
+        font-size:8pt;
+
+    }
+
+ 
+
+    p {
+
+        font-size:6pt;
+
+    }
+
+ 
+
+    .button,.button1 {
+
+        font-size: 6pt;
+
+    }
+
+ 
+
+  }
+
+ 
+
+  @media (max-width:768px)
+
+  {
+
+  
+
+     .img{
+
+          width: 200px;
+
+          height: 200px;
+
+          }
+
+   
+
+          .img1{
+
+              width: 200px;
+
+              height: 200px;
+
+              float: left;
+
+         }
+
+         .img2{
+
+          width: 170px;
+
+          height: 200px;
+
+     }
+
+  
+
+  
+
+      .int {
+
+          grid-column: span 12;
+
+      }
+
+  
+
+      .col {
+
+          grid-column: span 12;
+
+      }
+
+  
+
+      .exp{
+
+          grid-column: span 12;
+
+      }
+
+      
+
+      h1 {
+
+          font-size: 25pt;
+
+         
+
+      }
+
+      
+
+      h2 {
+
+          font-size: 18pt;
+
+         
+
+      }
+
+  
+
+      h3 {
+
+          font-size:12pt;
+
+      }
+
+  
+
+      p {
+
+          font-size:8pt;
+
+      }
+
+  
+
+      .button,.button1 {
+
+          font-size: 10pt;
+
+      }
+
+ 
+
+    
+
+  }
+
+  
+
+  @media (max-width:1200px )and (min-width:769px)
+
+  {
+
+    
+
+ 
+
+.img1{
+
+    width: 200px;
+
+    height: 200px;
+
+    }
+
+.img2{
+
+        width: 170px;
+
+        height: 200px;
+
+}
+
+   .int {
+
+    grid-column: span 6;
+
+}
+
+ 
+
+.col {
+
+    grid-column: span 6;
+
+}
+
+ 
+
+.exp {
+
+    grid-column: span 6;
+
+}
+
+h1 {
+
+    font-size: 35pt;
+
+   
+
+}
+
+ 
+
+h2 {
+
+    font-size: 20pt;
+
+   
+
+}
+
+ 
+
+h3 {
+
+    font-size:15pt;
+
+}
+
+ 
+
+p {
+
+    font-size:11pt;
+
+}
+
+ 
+
+.button,.button1 {
+
+    font-size: 12pt;
+
+}
+
+ 
+
+  }
+
+  
+
